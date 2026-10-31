@@ -4,7 +4,7 @@ My Voting Crew follows [Semantic Versioning](https://semver.org): MAJOR.MINOR.PA
 
 ## 1.5.0 (2026-10-31)
 
-An intro screen now opens the site on every visit, drawn from Mainiak's sketch. The main page, the More screen, the poll, printing and the flyer are unchanged.
+An intro screen now opens the site on every visit, drawn from Mainiak's sketch. This version also fixes the swipe between the main page and the More screen. Apart from the hint, the main page, the More screen, the poll, printing and the flyer are unchanged.
 
 - "Make a List" in blue Dancing Script, then "Bring friends to vote!" and "Have 5 times the impact!" in the site's own bold font (Archivo Black), a red Ohio in the middle, and "Tap anywhere to start!" ("Click anywhere to start!" with a mouse) in pulsing grey below.
 - Red flag stripes run corner to corner behind everything. Each stripe has rounded ends and stops short of the words, every star and Ohio, leaving a clear patch around Ohio.
@@ -12,6 +12,9 @@ An intro screen now opens the site on every visit, drawn from Mainiak's sketch. 
 - Five star layouts for upright screens and five for sideways screens. One is picked at random on each visit. Turning the screen switches to the same-numbered layout for the new shape.
 - A tap, a click or any key press closes the intro. Until then the page behind is out of reach of the keyboard and screen readers. The intro never prints.
 - Dancing Script is self-hosted in `fonts/` with its license (SIL Open Font License).
+- The "Swipe for more!" hint is larger (24 pixels, up from about 17) and has a hollow arrow above the words, pointing left in the swipe direction, drawn like the arrow under "Print your list!". The space kept for it at the right edge on narrow screens is 12 pixels wider.
+- The hint now slides away with the main page during a swipe. Before, it stayed fixed at the edge of the screen and showed over the More screen.
+- The main page and the More screen now scroll separately. Scrolling one no longer moves the other, and the More screen reopens where you left it.
 
 ## 1.4.0 (2026-10-30)
 
