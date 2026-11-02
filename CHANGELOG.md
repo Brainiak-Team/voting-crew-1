@@ -5,7 +5,7 @@ My Voting Crew follows [Semantic Versioning](https://semver.org): MAJOR.MINOR.PA
 ## 1.6.0 (2026-11-02)
 
 - Polls & Tracking: the poll box now shows three recent polls per race (NYT/Siena, YouGov, Suffolk University), newest first, Republican and Democrat only. Each shows its source and fieldwork dates.
-- The box moves on every 6 seconds, Senate then Governor. ‹ and › step through by hand; a press holds it still for 30 seconds.
+- The box moves on every 12 seconds, Senate then Governor. ‹ and › step through by hand; a press holds it still for 30 seconds.
 - Polls are typed into the page, so they show at once. The VoteHub server function (`/api/odds`) is removed.
 - A second outlined arrow below the "Swipe for more!" words.
 
